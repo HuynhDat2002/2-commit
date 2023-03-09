@@ -7,7 +7,7 @@ Mouse.prototype.eat=function(){
     this.hungry=false;
 };
 let mouse=new Mouse('mickey');
-console.log(mouse);
+
 mouse.eat();
 console.log(mouse);
 
