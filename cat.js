@@ -6,13 +6,13 @@ Cat.prototype.eat=function(mouse) {
     this.stomach.push(mouse);
 }
 
-var Mouse=require('./mouse');
+var Mouse=require('./mouse.cjs');
 
 let cat=new Cat('tom');
 
 cat.eat('mouse');
 
-console.log(cat.stomach);
+
 
 module.exports=Cat;
 //comment
