@@ -9,7 +9,7 @@ Mouse.prototype.eat=function(){
 let mouse=new Mouse('mickey');
 
 mouse.eat();
-console.log(mouse);
+
 
 let mouse2=new Mouse('jerry');
 // import chalk from "chalk";
