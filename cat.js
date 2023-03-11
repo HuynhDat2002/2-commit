@@ -12,7 +12,11 @@ let cat=new Cat('tom');
 
 cat.eat('mouse');
 
+function sayHi(){
+    console.log('Hello');
+}
 
-
+// sayHi();
+// console.log(cat);
 module.exports=Cat;
 //comment
