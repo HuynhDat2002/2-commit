@@ -6,12 +6,12 @@ function Mouse(name){
 Mouse.prototype.eat=function(){
     this.hungry=false;
 };
-let mouse=new Mouse('mickey');
+// let mouse=new Mouse('mickey');
 
-mouse.eat();
+// mouse.eat();
 
 
-let mouse2=new Mouse('jerry');
+// let mouse2=new Mouse('jerry');
 // import chalk from "chalk";
 // Mouse.prototype.sayHi=function(){
 
